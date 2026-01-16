@@ -1,4 +1,41 @@
 /* Add screen styles below */
-a.active {
+
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.centered {
+
+    margin: auto;
+}
+h1{
+    padding-top: 20px;
+}
+.active {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     font-weight: bold;
+    border: 10px solid #DC851F;
+    border-radius: 50%;
+}
+body {
+    background-color: #19271B;
+    color: #F8FFF4;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+a {
+    display: block;
+    margin:auto;
 }
