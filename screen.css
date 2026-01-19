@@ -21,6 +21,13 @@ h1{
     border: 10px solid #DC851F;
     border-radius: 50%;
 }
+.inactive {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 10px solid #f8fff400;
+    border-radius: 50%;
+}
 body {
     background-color: #19271B;
     color: #F8FFF4;
